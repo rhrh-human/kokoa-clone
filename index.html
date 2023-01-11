@@ -4,19 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome To Val talk!</title>
+    <title>Welcome To Val.talk!</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar_column">
         <span>No service</span>
-        <!-- to do wifi Icon-->
+        <i class="fa-solid fa-wifi"></i>
       </div>
-      <div class="status-bar_column"><span>01:20</span></div>
       <div class="status-bar_column">
-        <span>99%</span>
-        <!--배터리, 충전중 아이콘-->
+        <span>01:20</span>
+      </div>
+      <div class="status-bar_column">
+        <span>78%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+    <header class="welcome-head er">
+      <h1 class="welcome-header_title">Welcome To Val.talk!</h1>
+      <p class="welcome-header_text">
+        If you have Val. Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form class="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign in" />
+      <a href="#">Find Val. Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/50e168a3fb.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
