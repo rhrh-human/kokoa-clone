@@ -22,19 +22,33 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="welcome-head er">
+    <header class="welcome-header">
       <h1 class="welcome-header_title">Welcome To Val.talk!</h1>
       <p class="welcome-header_text">
         If you have Val. Account, log in with your email or phone number.
       </p>
     </header>
-    <form class="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form class="login-form" action="friends.html" method="get">
+      <input
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        required
+        minlength="8"
+        type="password"
+        placeholder="Password"
+      />
       <input type="submit" value="Log in" />
       <input type="submit" value="Sign in" />
       <a href="#">Find Val. Account or Password</a>
     </form>
+    <div class="welcome-login-img">
+      <img src="valorant-logo-E25A5721DF-seeklogo.com.png" />
+    </div>
 
     <script
       src="https://kit.fontawesome.com/50e168a3fb.js"
