@@ -1,0 +1,40 @@
+.user_component_column:first-child,
+.user_component {
+  display: flex;
+  align-items: center;
+}
+.user_component_avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 23px;
+  background-color: white;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.user_component_title {
+  font-size: 20px;
+}
+.user_component_subtitle {
+  margin-top: 8px;
+  opacity: 0.5;
+  font-size: 17px;
+}
+.friends_screen {
+  padding: 0px var(--horizontal-space);
+}
+.user_component_avatar_sm {
+  width: 58px;
+  height: 58px;
+  border-radius: 23px;
+  background-color: white;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.user_component_avatar_xl {
+  width: 58px;
+  height: 58px;
+  border-radius: 23px;
+  background-color: white;
+  margin-right: 20px;
+  object-fit: cover;
+}

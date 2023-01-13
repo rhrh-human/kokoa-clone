@@ -4,6 +4,9 @@
 @import "variable.css";
 @import "login-form-and-img.css";
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 body {
   font-family: Pretendard, -apple-system, "Signika Negative", sans-serif,
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
