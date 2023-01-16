@@ -13,6 +13,8 @@
 @import "more.css";
 @import "alt_screen_header.css";
 @import "settings.css";
+@import "chat.css";
+@import "no-mobile.css";
 body {
   font-family: Pretendard, -apple-system, "Signika Negative", sans-serif,
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
