@@ -14,27 +14,72 @@
 .user_component_title {
   font-size: 20px;
 }
+.user_component_title_sm {
+  font-size: 17px;
+}
 .user_component_subtitle {
   margin-top: 8px;
-  opacity: 0.5;
+  opacity: 0.7;
   font-size: 17px;
 }
 .friends_screen {
   padding: 0px var(--horizontal-space);
 }
 .user_component_avatar_sm {
-  width: 58px;
-  height: 58px;
+  width: 48px;
+  height: 48px;
+  border-radius: 19px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+  object-fit: cover;
+}
+.user_component_avatar_xl {
+  width: 80px;
+  height: 80px;
   border-radius: 23px;
   background-color: white;
   margin-right: 20px;
   object-fit: cover;
 }
-.user_component_avatar_xl {
-  width: 58px;
-  height: 58px;
-  border-radius: 23px;
-  background-color: white;
-  margin-right: 20px;
-  object-fit: cover;
+.user_component {
+  justify-content: space-between;
+}
+.friends_screen_channel {
+  margin-top: 20px;
+  border-top: var(--border-bottom-line);
+  padding-top: 15px;
+}
+.friends_screen_channel_header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.user_component_friends {
+  justify-content: space-between;
+  margin-top: 10px;
+  position: relative;
+}
+.chat_user_component_column {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user_component_time {
+  margin-bottom: 10px;
+  display: block;
+}
+.white_dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: -5px;
+  right: -5px;
+}
+.relative {
+  position: relative;
 }

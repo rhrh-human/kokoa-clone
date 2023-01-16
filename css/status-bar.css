@@ -4,6 +4,7 @@
   padding: 5px 3px;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 .status-bar_column:first-child span {
   margin-right: 5px;

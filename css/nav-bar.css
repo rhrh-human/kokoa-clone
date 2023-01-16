@@ -11,15 +11,6 @@
   justify-content: space-between;
 }
 .nav_notification {
-  background-color: white;
-  color: black;
-  width: 18px;
-  height: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  border-radius: 50%;
   position: absolute;
   left: 10px;
   bottom: 10px;
@@ -27,4 +18,7 @@
 }
 .nav_a {
   position: relative;
+}
+.icon_white {
+  color: #fff;
 }

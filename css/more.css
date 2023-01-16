@@ -1,0 +1,31 @@
+.more_screen .icon_row {
+  margin-top: 25px;
+}
+.more_suggestions {
+  margin-top: 50px;
+  border-top: var(--border-bottom-line);
+  padding-top: 40px;
+}
+.more_suggestions_title {
+  margin-bottom: 30px;
+}
+.more_suggestions_icon_img {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--red);
+  margin-bottom: 10px;
+}
+.more_suggestions_icons {
+  display: flex;
+}
+.more_suggestions_icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

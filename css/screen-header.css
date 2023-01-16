@@ -1,8 +1,9 @@
 .screen_header {
   display: flex;
   justify-content: space-between;
-  padding: 30px var(--horizontal-space);
+  padding: 50px var(--horizontal-space) 30px var(--horizontal-space);
   align-items: center;
+  margin-bottom: 10px;
 }
 .screen_header_title {
   font-size: 26px;
